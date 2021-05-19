@@ -29,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/atenaiis/restaurant-pg/issues"
   },
-  "homepage": "https://github.com/atenaiis/restaurant-pg#readme"
+  "homepage": "https://github.com/atenaiis/restaurant-pg#readme",
+  "keywords": []
 }
