@@ -1,10 +1,6 @@
-@font-face {
-  font-family: 'MyFont';
-  src:
-    url('../Fonts/my-font.woff2') format('woff2'),
-    url('../Fonts/my-font.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
+:root {
+  --main-dark: #293823;
+  --background: #fef7e7;
 }
 
 * {
@@ -12,9 +8,10 @@
 }
 
 body {
-  background-image: url("../images/backery-backgroud2.jpg");
+  background-image: url("../images/organicos.jpg");
   background-position: center;
   background-size: cover;
+  font-family: sans-serif;
   width: 100%;
   min-height: 100vh;
   padding: 25px;
@@ -22,7 +19,7 @@ body {
 }
 
 #sections {
-  background-color: whitesmoke;
+  background-color: rgb(146, 126, 100);
   min-height: 60vh;
   width: 70%;
   border-radius: 10px;
@@ -46,17 +43,22 @@ button {
 }
 
 button:focus {
-  outline: none;
+  outline-style: auto;
 }
 
 h1 {
-  margin: 0;
+  font-family: "Unica One";
+  font-size: 2em;
+  border-bottom: 1px solid var(--main-dark);
   text-align: center;
-  font-family: 'myFont', sans-serif;
 }
 
 li {
   list-style: none;
+  min-height: 50px;
+  border: 1px solid var(--main-dark);
+  border-radius: 3px;
+  padding: 10px;
 }
 
 #bakery,
@@ -70,10 +72,4 @@ li {
 #div-flex {
   display: flex;
   justify-content: space-around;
-}
-
-#div-flex li,
-h2 {
-  text-align: center;
-  margin: 15px;
 }

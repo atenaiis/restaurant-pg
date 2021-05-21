@@ -1,4 +1,4 @@
-import Icon from './images/postre2.jpg';
+import Icon from './images/organicos2.jpg';
 import homeSection from './home';
 
 const myBody = document.getElementById('my-body');
