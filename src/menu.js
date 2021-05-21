@@ -4,19 +4,19 @@ const menuSection = () => {
 
   // Set H1
   const menuHeading = document.createElement('h1');
-  menuHeading.innerText = '/-----       Menu        -----/';
+  menuHeading.innerText =  'This is our Menu';
   divMenu.prepend(menuHeading);
 
   const divFlex = document.createElement('div');
   divFlex.id = 'div-flex';
 
   const breakfast = document.createElement('ul');
-  let ulContent = '<h2> Breakfast </h2><li>YOGURT BERRY PARFAIT ... ($5)</li><li>OVERNIGHT OATS & CHIA ... ($5)</li><li>CLASSIC ... ($5)</li><li>MARCHIO ... ($5)</li>';
+  let ulContent = '<h2> Desserts </h2><li>Granola bars ... ($50)</li><li>Banana Bread ... ($25)</li><li>Strawberry Cheessecake ... ($22)</li><li>Mango Mousse ... ($32)</li>';
   breakfast.innerHTML = ulContent;
   divFlex.append(breakfast);
 
   const daily = document.createElement('ul');
-  ulContent = '<h2> Daily Pastries </h2><li>CORNETTO ... ($5)</li><li>SPECORINO ... ($5)</li><li>CORNETTO DI CIOCCOLATO ... ($5)</li><li>CIAMBELLONE ... ($5)</li>';
+  ulContent = '<h2> Preserves</h2><li>Jam ... ($18)</li><li>Peppers ... ($25)</li><li>Eggnog ... ($35)</li><li>Mezcal with citrus touch ... ($55)</li>';
   daily.innerHTML = ulContent;
   divFlex.append(daily);
 
