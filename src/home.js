@@ -1,4 +1,4 @@
-import family from './images/postre1.svg';
+import family from './images/postre1.jpg';
 
 
 

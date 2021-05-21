@@ -1,4 +1,4 @@
-import cafe from './images/postre2.svg';
+import cafe from './images/postre2.jpg';
 
 const contactText = '<p> Oaxaca, Mexico<br>Great place to live\n<br><strong>Phone:</strong> 951 - 647 - 7957<br><strong>Fax:</strong> 951 - 647 - 7957<br><strong>Email:</strong> getintocuh@camarellas.com<br></p>';
 

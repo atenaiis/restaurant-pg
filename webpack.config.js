@@ -1,12 +1,10 @@
-const webpack = require('webpack');
 const path = require('path');
 
-const config = {
-  mode: 'development',
+module.exports = {
   entry: './src/index.js',
   output: {
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
   },
   module: {
     rules: [
@@ -14,15 +12,22 @@ const config = {
         test: /\.css$/,
         use: [
           'style-loader',
-          'css-loader'
-        ]
+          'css-loader',
+        ],
       },
       {
-        test: /\.svg$/,
-        use: 'file-loader'
-      }
-    ]
-  }
-};
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader',
+        ],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          'file-loader',
+        ],
+      },
+    ],
+  },
 
-module.exports = config;
+};

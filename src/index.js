@@ -1,4 +1,4 @@
-//import style from './style/style.css';
+//import '../css/style.css';
 import load from './load';
 import homeSection from './home';
 import menuSection from './menu';
