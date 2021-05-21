@@ -1,4 +1,5 @@
-mport family from './img/postre1.jpeg';
+import family from './images/postre1.svg';
+
 
 
 const homeSection = () => {
