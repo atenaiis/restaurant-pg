@@ -4,7 +4,7 @@ const menuSection = () => {
 
   // Set H1
   const menuHeading = document.createElement('h1');
-  menuHeading.innerText =  'This is our Menu';
+  menuHeading.innerText = 'This is our Menu';
   divMenu.prepend(menuHeading);
 
   const divFlex = document.createElement('div');

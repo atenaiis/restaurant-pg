@@ -1,7 +1,6 @@
 import family from './images/postre1.jpg';
 
 
-
 const homeSection = () => {
   const homeText = "Camarella's is a place where you will find home made products using fresh and local products";
   const homesection = document.createElement('div');

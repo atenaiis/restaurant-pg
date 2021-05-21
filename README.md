@@ -3,7 +3,7 @@
 > The goal of this project is to demonstrate mastery with DOM manipulation by dynamically rendering a simple restaurant's homepage. On this page, I used JavaScript alone to generate the entire contents of the website!
 
 
-### You can access a Live Demo [HERE](https://rawcdn.githack.com/atenaiis/restaurant-pg/0dd1cc52d6d372f710c03c40b6a3d5869d380500/dist/index.html)
+### You can access a Live Demo [HERE](https://rawcdn.githack.com/atenaiis/restaurant-pg/541bfdc2a8d5c6726b468c542fa35ddad677d6aa/dist/index.html)
 
 ![Screenshot](./src/images/screen.png)
 

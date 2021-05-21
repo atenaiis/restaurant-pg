@@ -47,7 +47,7 @@ button:focus {
 }
 
 h1 {
-  font-family: "Unica One";
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 2em;
   border-bottom: 1px solid var(--main-dark);
   text-align: center;
