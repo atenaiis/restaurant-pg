@@ -4,9 +4,7 @@ import homeSection from './home';
 import menuSection from './menu';
 import contactSection from './contact';
 
-
 load();
-
 
 // Getting Div Sections where the elements will be appended
 const divSections = document.getElementById('sections');

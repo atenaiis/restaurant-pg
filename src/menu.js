@@ -25,5 +25,4 @@ const menuSection = () => {
   return divMenu;
 };
 
-
 export default menuSection;

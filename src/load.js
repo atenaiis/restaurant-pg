@@ -35,5 +35,4 @@ const load = () => {
   homeSection();
 };
 
-
 export default load;
