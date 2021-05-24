@@ -1,5 +1,4 @@
 const menuSection = () => {
-  
   const divMenu = document.createElement('div');
 
   const menuHeading = document.createElement('h1');

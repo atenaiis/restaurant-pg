@@ -4,17 +4,14 @@ const homeSection = () => {
   const homeText = "Camarella's is a place where you will find home made products using fresh and local products";
   const homesection = document.createElement('div');
 
- 
   const homeHeading = document.createElement('h1');
   homeHeading.innerText = "Camarella's";
   homesection.append(homeHeading);
 
-  
   const homeParagraph = document.createElement('p');
   homeParagraph.innerText = homeText;
   homesection.append(homeParagraph);
 
-  
   const familyPicture = new Image();
   familyPicture.src = family;
   familyPicture.id = 'bakery';

@@ -6,9 +6,7 @@ import contactSection from './contact';
 
 load();
 
-
 const divSections = document.getElementById('sections');
-
 
 const setSection = (section) => {
   divSections.innerHTML = '';
