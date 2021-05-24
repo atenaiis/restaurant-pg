@@ -19,14 +19,18 @@
 
 ## Getting Started
 
-To get a local copy of this project running follow these simple steps.
+- Open your terminal and cd where you want to store the project
+- To clone the repository run the following command:
 
-- Clone this repository
- > `git clone < git@github.com:atenaiis/restaurant-pg.git >
-- Navigate to the Repo Folder
-- To set Webpack and the dependencies run the command
+* git clone https://git@github.com:atenaiis/restaurant-pg.git 
+
+- Change directory to point to the Restaurant-page dir.
+-  Now run:
 > `npm install`
-- Use your favorite browser to open the index.html file (located at the dist page)
+- Finally run:
+
+  npm start
+- Go to the dist folder and select index.html, now Open the live server on your VScode Alt + L then Alt + o
 
 
 ## Authors
@@ -49,3 +53,7 @@ Feel free to check the isuue.
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## 📝 License
+
+MIT
